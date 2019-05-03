@@ -3,6 +3,7 @@
 Avec l'aide d'un tuto j'ai pris un peu d'avance et j'ai reproduis le jeu du Snake.
 Moi qui avait des difficultés en JS, ça m'a permet d'un peu plus évoluer.
 
+![Snake Img](/img/serpent.jpg "Rocket Team")
 
 ### Système de jeu
 - L'utilisateur aura 3 vies seulement, à la fin de la partie :
