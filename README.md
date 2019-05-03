@@ -2,6 +2,9 @@
 
 Avec l'aide d'un tuto j'ai pris un peu d'avance et j'ai reproduis le jeu du Snake.
 Moi qui avait des difficultés en JS, ça m'a permet d'un peu plus évoluer.
+J'attend de ce challenge perso qu'il m'aide à mieux comprendre les mécaniques.
+
+
 
 ![Snake Img](/img/serpent.jpg "Rocket Team")
 
