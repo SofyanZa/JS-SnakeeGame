@@ -1,6 +1,6 @@
 ## Jeu du Snake version v1 en JS
 
-Avec l'aide d'un tuto j'ai pris un peu d'avance et j'ai reproduis le jeu du Snake
+Avec l'aide d'un tuto j'ai pris un peu d'avance et j'ai reproduis le jeu du Snake.
 Moi qui avait des difficultés en JS, ça m'a permet d'un peu plus évoluer.
 
 
