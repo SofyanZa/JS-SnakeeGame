@@ -63,3 +63,23 @@ body {
 /* Header */
 
 /* Footer */
+
+i.fab {
+    font-size: 1.5em;
+}
+
+i.fab.fa-facebook-f:hover {
+    color: #3b5998;
+
+}
+
+
+i.fab.fa-twitter:hover {
+    color: #0084ff;
+}
+
+
+i.fab.fa-instagram:hover {
+                color: #c13584;
+               
+}
