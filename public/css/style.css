@@ -1,0 +1,18 @@
+body {
+    background-image: url("../img/snake-home.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+rules {
+    margin-top: 5em;
+}
+
+#login {
+    margin-top: 20vh;
+}

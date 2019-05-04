@@ -382,16 +382,16 @@ function restart(){ // Cette fonction permet au joueur de relancer une partie en
     switch(key) // Si key est vérifié, donc si un utilisateur appui sur une touche (event.keyCode)
     {
         case 37: // 37 correspond au code de la touche "fleche de gauche"
-        newDirection = "left";
+            newDirection = "left";
             break;
         case 38: // 38 correspond au code de la touche "fleche du haut"
-        newDirection = "up";
+            newDirection = "up";
             break;
         case 39: // 39 correspond au code de la touche "fleche de droite"
             newDirection = "right";
             break;
         case 40: // correspond au code de la touche "fleche du bas"
-        newDirection = "down";
+            newDirection = "down";
             break;
         case 32: // correspond à la touche espace
             restart();
