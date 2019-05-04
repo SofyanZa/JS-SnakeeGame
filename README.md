@@ -1,6 +1,6 @@
 # Jeu du Snake version v1 en JS
 
-Avec l'aide d'un tuto et de 3 collègues de la promo Rocket j'ai pris un peu d'avance sur ce qu'on a vu en cours et j'ai reproduis le jeu du Snake.
+Avec l'aide d'un tuto et de 3 collègues de la promo Rocket ( Nicolas, Gregory et Aghiles ) j'ai pris un peu d'avance sur ce qu'on a vu en cours et j'ai reproduis le jeu du Snake.
 Moi qui avait des difficultés en JS, ça m'a permit d'un peu plus évoluer.
 J'attend de ce challenge personnel qu'il m'aide à mieux comprendre les mécaniques de Javascript, de PHP et de Mysql !
 
