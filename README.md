@@ -1,7 +1,8 @@
 # Jeu du Snake version v1 en JS
 
-Avec l'aide d'un tuto et de 3 collègues de la promo Rocket ( Nicolas, Gregory et Aghiles ) j'ai pris un peu d'avance sur ce qu'on a vu en cours et j'ai reproduis le jeu du Snake.
+Avec l'aide d'un tuto et de 3 collègues de la promo Rocket ( Nicolas, Gregory, et Aghiles ( sans oublier la précieuse aide de Johan et Thomas ) j'ai pris un peu d'avance sur ce qu'on a vu en cours et j'ai reproduis le jeu du Snake.
 Moi qui avait des difficultés en JS, ça m'a permit d'un peu plus évoluer.
+
 J'attend de ce challenge personnel qu'il m'aide à mieux comprendre les mécaniques de Javascript, de PHP et de Mysql !
 
 
@@ -28,7 +29,7 @@ J'attend de ce challenge personnel qu'il m'aide à mieux comprendre les mécaniq
 Quand on appuie sur deux touches valides en même temps la fonction Game over s'éxécute.
 
 **Solution** :
-Ce qu'il se passe quand tu appuies sur plusieurs touches en même temps, c'est que ton code s'exécute plus rapidement que le rafraichissement de ton canvas, donc de ton image. Donc si les deux touches se suivent et sont des directions valables et bien ton serpent tourne deux fois et doit se rentrer dedans donc la fonction gameover s'exécute. Pour régler ce soucis tu peux créer une variable "canMove" que tu passes à false une fois que tu appuyer sur une direction valable et que tu repasses à true une fois ton canvas rafraîchit.
+Ce qu'il se passe quand tu appuies sur plusieurs touches en même temps, c'est que ton code s'exécute plus rapidement que le rafraichissement de ton canvas, donc de ton image. Donc si les deux touches se suivent et sont des directions valables et bien ton serpent tourne deux fois et doit se rentrer dedans donc la fonction gameover s'exécute. Pour régler ce soucis tu peux créer une variable "canMove" que tu passes à false une fois que tu appuyes sur une direction valable et que tu repasses à true une fois ton canvas rafraîchit.
 
 ### Spoiler 2 :
 <details>
