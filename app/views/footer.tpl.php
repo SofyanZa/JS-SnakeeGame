@@ -4,7 +4,8 @@
 
             <div class="col">
                 <ul class="list-unstyled list-inline d-flex justify-content-between">                                                   
-                    <i class="fas fa-rocket font-weight-bold text-white"> Rocket-Logo</i>
+                    <i class="list-inline-item fas fa-rocket font-weight-bold text-white">Rocket Clan</i>
+    
                 </ul>      
             </div>     
 

@@ -10,15 +10,15 @@
                     <div class="info-form">
                         <form action="" method='post' class="form-inlin justify-content-center">
                             <div class="form-group">
-                                <label class="sr-only">Nom d'utilisateur</label>
-                                <input type="text" class="form-control" placeholder="Nom d'utilisateur">
+                                <label class="sr-only">Pseudo</label>
+                                <input type="text" class="form-control" placeholder="Pseudo">
                             </div>
                             <div class="form-group">
-                                <label class="sr-only">Mot de passe</label>
-                                <input type="text" class="form-control" placeholder="Mot de passe">
+                                <label class="sr-only">Password</label>
+                                <input type="text" class="form-control" placeholder="Password">
                             </div>
-                            <button type="submit" class="btn btn-success">Connection</button>
-                            <button type="submit" class="btn btn-success">Créer un compte</button>                       
+                            <button type="submit" class="btn btn-success">SIGN UP</button> <!-- Le sign up pour se connect est directement relié au resul de pseuo/password-->
+                            <button type="submit" class="btn btn-success">SIGN IN</button>                       
                         </form>
                     </div>
                     <br>

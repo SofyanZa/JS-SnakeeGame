@@ -6,13 +6,60 @@ body {
     color: white;
     overflow: hidden;
     font-family: 'PT Sans', sans-serif;
+    
 
 }
 
-rules {
-    margin-top: 5em;
+
+
+/* Login */
+
+
+
+#volet {
+	width: 250px;
+	padding: 10px;
+    background: #6B9A49; color: #fff;
+
+    /* Puis nous décalons le volet en dehors de l'écran en ne faisant ressortir que notre lien. */
+    position: relative;
+    left: -270px; top: 55px;	
+    
+
+    /* Ensuite il nous faut préparer la transition sur le volet. */
+    -webkit-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+
+}
+#volet a.ouvrir {
+	padding: 10px 25px;
+	background: #fff;
+	color: #000;
+    text-decoration: none;
+    position: absolute;
+	right: -88px;
+    top: 150px;
+    /* quelques styles CSS3 */
+	-ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+
+	border-radius: 0 0 8px 8px;
 }
 
-#login {
-    margin-top: 20vh;
+
+/* Et enfin déterminer à quel moment nous allons faire sortir le volet. */
+#volet:target {
+	left: 0;
 }
+
+
+
+
+
+/* Body */
+
+/* Header */
+
+/* Footer */
