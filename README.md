@@ -6,7 +6,7 @@ Moi qui avait des difficultés en JS, ça m'a permit d'un peu plus évoluer.
 J'attend de ce challenge personnel qu'il m'aide à mieux comprendre les mécaniques de Javascript, de PHP et de Mysql !
 
 
-![Snake Img](/img/serpent.jpg "Rocket Team")
+![Snake Img](/public/img/serpent.jpg "Rocket Team")
 
 ### Système de jeu
 - L'utilisateur aura 3 vies seulement, à la fin de la partie :
