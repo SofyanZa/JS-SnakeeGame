@@ -13,19 +13,25 @@
             <div class="col">
                 <ul class="list-unstyled list-inline d-flex justify-content-center">
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
-                    <a href="#">Developpers</a>
+                    <a class="col-url" href="developers.tpl.php">Developpers</a>
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
-                    <a href="https://metro.co.uk/2016/11/16/violet-fenn-snakes-make-the-best-pets-6230911/" target="_blank">Snake life</a>
+                    <a class="col-url" href="https://metro.co.uk/2016/11/16/violet-fenn-snakes-make-the-best-pets-6230911/" target="_blank">Snake life</a>
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li> 
-                    <a href="https://oclock.io/" target="_blank">Contact</a>
+                    <a class="col-url" href="https://oclock.io/" target="_blank">Contact</a>
                 </ul>    
             </div>
 
             <div class="col">
                 <ul class="list-unstyled list-inline d-flex justify-content-end">
-                    <li class="list-inline-item pr-3"><i class="fab fa-facebook-f"> </i></li>
+                <a class ="col-icon" href="https://www.facebook.com/allaboutsnakes/" target="_blank">
+                    <li class="list-inline-item pr-3"><i class="fab fa-facebook-f"></i></li>
+                </a>
+                <a class ="col-icon" href="https://twitter.com/snake_fan_page" target="_blank">
                     <li class="list-inline-item pr-3"><i class="fab fa-twitter"> </i></li>
+                </a>
+                <a class ="col-icon" href="https://www.instagram.com/explore/tags/snakes/?hl=fr" target="_blank">
                     <li class="list-inline-item pr-3"><i class="fab fa-instagram"> </i></li> 
+                </a>
                 </ul> 
             </div>  
 

@@ -15,10 +15,16 @@
     /* font-size: 1em; le fait de grossir mon texte au survol décale ma div container, jai test position absolute mais fail */
     }
    
-    a:hover {
-    text-decoration: none; color: greenyellow;
+   .col-url {
+    text-decoration: none; color: white;
    
     /* font-size: 1.5em;  */
+   }
+   
+   .col-url:hover {
+    text-decoration: none; color:greenyellow;
+   
+  
    }
    
 
@@ -88,15 +94,21 @@
 
 /* Header */
 
-/* Footer */
+/********************** Footer *****************/
+
+/* Footer Devloppers */
 
 
-footer {
+.footer-developpers {
     min-width: -webkit-fill-available;
     margin: 7em;
     font-family: 'Qwigley', cursive;
     font-size: 2em;
 }
+
+
+
+/* All Footers */
 
 i.fab {
     font-size: 1.5em;
@@ -114,10 +126,13 @@ i.fab.fa-twitter:hover {
 
 
 i.fab.fa-instagram:hover {
-                color: #c13584;
+    color: #c13584;
                
 }
 
+.col-icon:hover {
+color: white;
+}
 
 /* Tableau Developpers */
 

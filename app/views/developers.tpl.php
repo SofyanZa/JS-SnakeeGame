@@ -193,7 +193,7 @@
 
         
 
-        <footer>
+        <footer class="footer-developpers">
           <div class="container-fluid m-auto">
           <p>From Turtles Tryharders</p>
           </div>
