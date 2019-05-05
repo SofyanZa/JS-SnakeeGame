@@ -110,7 +110,7 @@ function gameOver(){
     ctx.font = "bold 70px sans-serif";
     ctx.fillStyle = "black";
     ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
+    ctx.textBaseline = "middle"; 
     ctx.strokeStyle = "orange"; // Ajout d'une bordure blanche
     ctx.lineWidth = 2; // épaisseur de la bordure
     var centreX = canvasWidth / 2;
@@ -126,9 +126,12 @@ function gameOver(){
 
 function restart(){ // Cette fonction permet au joueur de relancer une partie en appuyant sur la touche espace
 
-    document.querySelectorAll('.background-sound').remove();
+    
+    if(document.querySelectorAll('.background-sound').length != 0) {
+        document.querySelectorAll(".background-sound").forEach(e => e.parentNode.removeChild(e));
+    }
     backgroundSound = document.createElement('audio');
-    backgroundSound.src = '../back_in_summer.mp3';
+    backgroundSound.src = 'https://isoweb.eu/back_in_summer.mp3';
     backgroundSound.setAttribute('autoplay', 'true');
     backgroundSound.classList.add('background-sound');
     backgroundSound.volume = 0.05;
@@ -332,7 +335,7 @@ function restart(){ // Cette fonction permet au joueur de relancer une partie en
         // Si le x ET le y de mon serpent ( sa tete ) est égale à la tete de la pomme
         if(head[0] === appleToEat.position[0] && head[1] === appleToEat.position[1]) {
             appleSound = document.createElement('audio');
-            appleSound.src = '../pomme.mp3';
+            appleSound.src = 'https://isoweb.eu/pomme.mp3';
             appleSound.setAttribute('autoplay', 'true');
             appleSound.classList.add('apple');
             appleSound.setAttribute('type', 'audio/mp3');
