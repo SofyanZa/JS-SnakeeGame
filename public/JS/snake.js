@@ -7,7 +7,7 @@ window.onload = function() { // Un gestionnaire d'évènement pour l'évènement
     var canvasHeight = 600; // La hauteur de notre canvas
     var blockSize = 30; // la largeur d'un block qui correspond au block du canvas ou du serpent
     var ctx; // je créer la variable contexte pour pouvoir l'utiliser ensuite
-    var delay = 100; // exprimé en millisecondes (1 seconde)
+    var delay = 100; // exprimé en millisecondes
     // var xCoord = 0; // (x) horizontal : de base il est tout à gauche
     // var yCoord = 0; // (y) vertical ; de base il est tout en haut
     var snakee; // cette variable représente le serpent. L'objectif est de pouvoir l'utiliser dans toutes les méthodes (qu'elle ait une portée "globale"?)
@@ -39,7 +39,7 @@ window.onload = function() { // Un gestionnaire d'évènement pour l'évènement
     
         canvas.width = canvasWidth; // on définit largeur du canvas 
         canvas.height = canvasHeight; // on définit la hauteur du canvas
-        canvas.style.border = "30px solid gray"; // on ajoute un bordure au canvas pour pouvoir mieux la visualiser
+        canvas.style.border = "30px solid grey"; // on ajoute un bordure au canvas pour pouvoir mieux la visualiser
         canvas.style.margin = "50px auto"; // Rappel css : pour centre auto un element il faut qu'il sois en display block
         canvas.style.display = "block"; // Voir ligne du dessus
         canvas.style.backgroundColor = "#ddd"; // on change la couleur de fond du canvas
@@ -72,6 +72,10 @@ window.onload = function() { // Un gestionnaire d'évènement pour l'évènement
                 snakee.ateApple = true; // Le serpent à mangé une pomme
 
             do {
+                appleSound = document.createElement('audio');
+                appleSound.autoPlay = true;
+                appleSound.src = './public/audio/pomme.mp3';
+                document.body.appendChild(appleSound);
                 applee.setNewPosition();
             }
             while(applee.isOnSnake(snakee)) // Je veux verifier si snakee est sur la pomme

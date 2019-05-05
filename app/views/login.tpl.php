@@ -2,15 +2,12 @@
     <div id="cover-caption">
         <div id="container" class="container">
             <div class="row text-white">
-                <div class="col-sm-6 offset-sm-3 text-center ">
+                <div class="col-sm-6 offset-sm-3 text-center">
                     <h1 class="display-4 font-weight-bold">LOGIN</h1>
-                    <ul class>
-                        <i class="fas fa-rocket fa-2x font-weight-bold text-white"></i>
-                    </ul>
                     <div class="info-form">
                         <form action="" method='post' class="form-inlin justify-content-center">
                             <div class="form-group">
-                                <label class="sr-only">Pseudo</label>
+                                <label class="sr-only">Login</label>
                                 <input type="text" class="form-control" placeholder="Pseudo">
                             </div>
                             <div class="form-group">

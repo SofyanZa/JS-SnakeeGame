@@ -1,4 +1,6 @@
-body {
+/* Page d'accueil */
+
+.body-home {
     background-image: url("../img/snake-home.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +12,31 @@ body {
 
 }
 
+a {
+    text-decoration: none; color: white; 
+    /* font-size: 1em; le fait de grossir mon texte au survol décale ma div container, jai test position absolute mais fail */
+    }
+   
+    a:hover {
+    text-decoration: none; color: greenyellow;
+   
+    /* font-size: 1.5em;  */
+   }
+   
+
+/* Page quand on est connecté main */
+
+.body-connect {
+    background-image: url("../img/serpent.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    font-family: 'PT Sans', sans-serif;
+    
+
+}
 
 
 /* Login */
@@ -56,13 +83,12 @@ body {
 
 
 
-
-
 /* Body */
 
 /* Header */
 
 /* Footer */
+
 
 i.fab {
     font-size: 1.5em;

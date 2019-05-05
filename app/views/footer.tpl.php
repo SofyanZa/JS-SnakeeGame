@@ -3,17 +3,21 @@
         <div class="row">
 
             <div class="col">
-                <ul class="list-unstyled list-inline d-flex justify-content-between">                                                   
-                    <i class="list-inline-item fas fa-rocket font-weight-bold text-white">Rocket Clan</i>
-    
+                <ul class="list-unstyled list-inline d-flex justify-content-start">                                                   
+                    <i class="list-inline-item pr-3 fas fa-rocket fa-2x font-weight-bold text-white"></i>
+                    <li class="list-inline-item text-white"></li>
+                    <a href="#">Rocket-Clan</a>
                 </ul>      
             </div>     
 
             <div class="col">
                 <ul class="list-unstyled list-inline d-flex justify-content-center">
-                    <li class="list-inline-item pr-3 font-weight-bold text-white">Legal Mention</li>
-                    <li class="list-inline-item pr-3 font-weight-bold text-white">Snake life</li>
-                    <li class="list-inline-item pr-3 font-weight-bold text-white">Contact</li> 
+                    <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
+                    <a href="#">Developpers</a>
+                    <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
+                    <a href="#">Snake life</a>
+                    <li class="list-inline-item pr-3 font-weight-bold text-white"></li> 
+                    <a href="#">Contact</a>
                 </ul>    
             </div>
 
