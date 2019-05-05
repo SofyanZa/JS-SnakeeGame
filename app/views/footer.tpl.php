@@ -15,9 +15,9 @@
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
                     <a href="#">Developpers</a>
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
-                    <a href="#">Snake life</a>
+                    <a href="https://metro.co.uk/2016/11/16/violet-fenn-snakes-make-the-best-pets-6230911/" target="_blank">Snake life</a>
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li> 
-                    <a href="#">Contact</a>
+                    <a href="https://oclock.io/" target="_blank">Contact</a>
                 </ul>    
             </div>
 

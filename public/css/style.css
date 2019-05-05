@@ -1,19 +1,17 @@
-/* Page d'accueil */
+    /* Page d'accueil */
 
-.body-home {
-    background-image: url("../img/snake-home.jpeg");
+    .body-home {
+        background-image: url("../img/snake-home.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     color: white;
     overflow: hidden;
     font-family: 'PT Sans', sans-serif;
-    
+    }
 
-}
-
-a {
-    text-decoration: none; color: white; 
+    a {
+        text-decoration: none; color: white; 
     /* font-size: 1em; le fait de grossir mon texte au survol décale ma div container, jai test position absolute mais fail */
     }
    
@@ -24,10 +22,10 @@ a {
    }
    
 
-/* Page quand on est connecté main */
+    /* Page quand on est connecté main */
 
-.body-connect {
-    background-image: url("../img/serpent.jpg");
+    .body-connect {
+        background-image: url("../img/serpent.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -39,11 +37,14 @@ a {
 }
 
 
-/* Login */
+    /* Login */
 
+    #login {
 
+        margin-top: -25vh;
+    }
 
-#volet {
+    #volet {
 	width: 250px;
 	padding: 10px;
     background: #6B9A49; color: #fff;
@@ -57,29 +58,29 @@ a {
     -webkit-transition: all .5s ease-in;
 	transition: all .5s ease-in;
 
-}
-#volet a.ouvrir {
-	padding: 10px 25px;
-	background: #fff;
-	color: #000;
-    text-decoration: none;
-    position: absolute;
-	right: -88px;
-    top: 150px;
-    /* quelques styles CSS3 */
-	-ms-transform: rotate(270deg);
-	-moz-transform: rotate(270deg);
-	-webkit-transform: rotate(270deg);
-	transform: rotate(270deg);
+    }
+    #volet a.ouvrir {
+        padding: 10px 25px;
+        background: #fff;
+        color: #000;
+        text-decoration: none;
+        position: absolute;
+        right: -88px;
+        top: 150px;
+        /* quelques styles CSS3 */
+        -ms-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
 
-	border-radius: 0 0 8px 8px;
-}
+        border-radius: 0 0 8px 8px;
+    }
 
 
-/* Et enfin déterminer à quel moment nous allons faire sortir le volet. */
-#volet:target {
-	left: 0;
-}
+    /* Et enfin déterminer à quel moment nous allons faire sortir le volet. */
+    #volet:target {
+        left: 0;
+    }
 
 
 
@@ -89,6 +90,13 @@ a {
 
 /* Footer */
 
+
+footer {
+    min-width: -webkit-fill-available;
+    margin: 7em;
+    font-family: 'Qwigley', cursive;
+    font-size: 2em;
+}
 
 i.fab {
     font-size: 1.5em;
@@ -109,3 +117,158 @@ i.fab.fa-instagram:hover {
                 color: #c13584;
                
 }
+
+
+/* Tableau Developpers */
+
+
+.container-fluid h1 {
+    font-size: 7em;
+    color: white;
+    font-family: 'Qwigley', cursive;
+}
+
+.bg-gradient {
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    } 
+
+.h4 {
+    font-size: 1em;
+}
+
+    ul li {
+      margin-bottom:1.4rem;
+    }
+
+    .pricing-divider {
+    border-radius: 20px;
+    background: #C64545;
+    padding: 1em 0 4em;
+    position: relative;
+    }
+
+    .blue .pricing-divider{
+    background: #2D5772; 
+    }
+
+    .green .pricing-divider {
+    background: #1AA85C; 
+    }
+
+    .violet .pricing-divider {
+        background: slateblue;
+    }
+
+    .black .pricing-divider {
+        background: black;
+    }
+
+    .h4 .pricing-divider {
+        font-size: 1em;
+    }
+
+    
+    .red b {
+      color:#C64545;
+    }
+
+    .violet b {
+        color:slateblue;
+    }
+
+    .blue b {
+      color:#2D5772;
+    }
+
+    .green b {
+      color:#1AA85C;
+    }
+
+    .black b {
+        color:black;
+    }
+
+    .btn-custom-violet {
+        background: slateblue;
+        color: white;
+        font-weight: bold;
+        border-radius: 1em;
+    }
+
+    .btn-custom-blue {
+        background:#2D5772;
+        color: white;
+        font-weight: bold;
+        border-radius: 1em;
+    }
+
+    .btn-custom-green {
+        background: #1AA85C;
+        color: white;
+        font-weight: bold;
+        border-radius: 1em;
+    }
+
+    .btn-custom-red {
+        background: #C64545;
+        color: white;
+        font-weight: bold;
+        border-radius: 1em;
+    }
+
+    .btn-custom-black {
+        background: black;
+        color: white;
+        font-weight: bold;
+        border-radius: 1em;
+    }
+
+
+    .pricing-divider-img {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 80px;
+    }
+
+    .deco-layer {
+        -webkit-transition: -webkit-transform 0.5s;
+        transition: transform 0.5s;
+    }
+
+    .btn-custom  {
+      background:#C64545; color:#fff; border-radius:20px
+    }
+    
+    .img-float {
+      width:50px; position:absolute;top:-3.5rem;right:1rem
+    }
+    
+    .princing-item {
+      transition: all 150ms ease-out;
+    }
+
+    .princing-item:hover {
+      transform: scale(1.05);
+    }
+
+    .princing-item:hover .deco-layer--1 {
+      -webkit-transform: translate3d(15px, 0, 0);
+      transform: translate3d(15px, 0, 0);
+    }
+
+    .princing-item:hover .deco-layer--2 {
+      -webkit-transform: translate3d(-15px, 0, 0);
+      transform: translate3d(-15px, 0, 0);
+    }
+    
+
+    .h4.col-4 {
+        font-size: 3em;
+        
+    }
+    
+    /*  */
