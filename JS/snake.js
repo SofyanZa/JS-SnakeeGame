@@ -69,7 +69,7 @@ window.onload = function() { // Un gestionnaire d'évènement pour l'évènement
 
             if(snakee.isEatingApple(applee)) {
                 score++;
-                snakee.ateApple = true; // Le serpent à mangé une pomme
+                snakee.ateApple = true; // Le serpent à mangé une pomme 
 
             do {
                 applee.setNewPosition();
@@ -125,6 +125,16 @@ function gameOver(){
 
 
 function restart(){ // Cette fonction permet au joueur de relancer une partie en appuyant sur la touche espace
+
+    document.querySelectorAll('.background-sound').remove();
+    backgroundSound = document.createElement('audio');
+    backgroundSound.src = '../back_in_summer.mp3';
+    backgroundSound.setAttribute('autoplay', 'true');
+    backgroundSound.classList.add('background-sound');
+    backgroundSound.volume = 0.05;
+    backgroundSound.setAttribute('type', 'audio/mp3');
+    
+    document.body.appendChild(backgroundSound);
     snakee = new Snake([[6,4],[5,4],[4,4],[3,4],[2,4],[1,4]], "right"); 
     applee = new Apple([10,10]);
     score = 0;  // Quand tu restart la partie tu recommence logiquement à 0 points.
@@ -321,6 +331,17 @@ function restart(){ // Cette fonction permet au joueur de relancer une partie en
         var head = this.body[0]; //  ici on créer une variable pour désigner la tete du serpent
         // Si le x ET le y de mon serpent ( sa tete ) est égale à la tete de la pomme
         if(head[0] === appleToEat.position[0] && head[1] === appleToEat.position[1]) {
+            appleSound = document.createElement('audio');
+            appleSound.src = '../pomme.mp3';
+            appleSound.setAttribute('autoplay', 'true');
+            appleSound.classList.add('apple');
+            appleSound.setAttribute('type', 'audio/mp3');
+            
+            document.body.appendChild(appleSound);
+
+            setTimeout(function () {
+                document.querySelector('.apple').remove();
+            }, 1000);
         return true; // Ça veut dire que je suis sur la pomme
     } else { // sinon ça veut dire que je ne suis PAS sur la pomme
 
