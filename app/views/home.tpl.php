@@ -14,8 +14,9 @@
                                 <label class="sr-only">Password</label>
                                 <input type="text" class="form-control" placeholder="Password">
                             </div>
-                            <button type="submit" class="btn btn-success">SIGN UP</button> <!-- Le sign up pour se connect est directement relié au resul de pseuo/password-->
-                            <button type="submit" class="btn btn-success">SIGN IN</button>                       
+                            <button type="submit" class="btn btn-success">SIGN IN</button> <!-- se connecter -->
+                            <a class="btn btn-primary" href="<?= $router->generate('register'); ?>" role="button">SIGN UP</a> <!-- s'inscrire   -->   
+                                  
                         </form>
                     </div>
                     <br>

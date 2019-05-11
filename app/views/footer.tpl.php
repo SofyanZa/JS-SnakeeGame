@@ -13,7 +13,7 @@
             <div class="col">
                 <ul class="list-unstyled list-inline d-flex justify-content-center">
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
-                    <a class="col-url" href="developers.tpl.php">Developpers</a>
+                    <a class="col-url" href="<?= $router->generate('developers'); ?>">Developpers</a>
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li>
                     <a class="col-url" href="https://metro.co.uk/2016/11/16/violet-fenn-snakes-make-the-best-pets-6230911/" target="_blank">Snake life</a>
                     <li class="list-inline-item pr-3 font-weight-bold text-white"></li> 

@@ -1,0 +1,32 @@
+#Deny from all
+#on s'aprete à faire de la reecriture
+RewriteEngine On
+
+
+# Pour toutes les pages qui n'existent pas
+# on renvoie la requête vers index.php
+# en passant l'URL réécrite dans le paramètre GET _url
+
+# dynamically setup base URI
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+RewriteRule ^(.*) - [E=BASE_URI:%1]
+
+#Si le fichier demandé n'est pas un dossier existant
+RewriteCond %{REQUEST_FILENAME} !-d
+#Si le fichier demandé n'est pas un fichier existant
+RewriteCond %{REQUEST_FILENAME} !-f
+#Alors tu rediriges toutes les requetes vers index.php
+
+# redirect every request to index.php
+# and give the relative URL in "_url" GET param
+
+# RewriteRule ^(.*)$ index.php?_url=/$1 [QSA,L]
+
+# AltoRouter versiob
+RewriteRule . index.php [L]
+
+# regex = l'expression régulière ci-dessus (regex) nous permet sur cette URL
+# http://localhost/rocket/e03/s05-e03-oshop-jc-oclock/public/catalog/category/1
+# ^(.*)$ sert à récupérer tous les caractères à partir de l'URL 
+# et nous les renvoient dans la variable $1
+# https://regex101.com/
